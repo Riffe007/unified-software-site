@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ComingSoonCard from "@/components/ComingSoonCard";
+import  from "@/components/";
 import { Code, BrainCircuit, DollarSign, Shield, Eye } from "lucide-react";
 
 const expertiseAreas = [

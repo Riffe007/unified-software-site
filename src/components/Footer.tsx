@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
-  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     if (theme === "dark") {
