@@ -23,7 +23,7 @@ export default function HomePage() {
       <IndustriesSection />
 
       {/* Document AI Video */}
-      <VideoSection src="/videos/doc1.mp4" />
+      <VideoSection src="/videos/traffic.mp4" />
 
       {/* Partner With AI Experts */}
       <CTASection />
