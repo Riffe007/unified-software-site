@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
         <Navbar />
-        <main className="container mx-auto px-4 py-8">{children}</main>
+        <main className="">{children}</main> {/* Remove `pt-16` */}
         <Footer />
       </body>
     </html>
