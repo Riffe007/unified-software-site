@@ -12,10 +12,7 @@ export default function ExpertiseSection() {
   ];
 
   return (
-    <section className="py-16 text-center transition-all duration-500
-      bg-gradient-to-r from-blue-900 to-black text-white dark:from-black dark:to-blue-900">
-      
-      {/* Animated Header */}
+    <section className="py-16 text-center bg-gradient-to-r from-blue-900 to-black text-white">
       <motion.h2
         className="text-5xl font-extrabold"
         initial={{ opacity: 0, y: -20 }}
@@ -51,6 +48,13 @@ export default function ExpertiseSection() {
             </Link>
           </motion.div>
         ))}
+      </div>
+
+      {/* Call to Action Button */}
+      <div className="mt-10">
+        <Link href="/expertise" className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-lg font-medium transition">
+          View All Expertise →
+        </Link>
       </div>
     </section>
   );
