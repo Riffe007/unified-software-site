@@ -1,24 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { useState, useEffect } from "react";
 
 export default function HeroSection() {
-
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
-
   return (
-    <section
-      className={`relative min-h-screen flex flex-col justify-center items-center text-center 
-      transition-all duration-500 ${theme === "dark" ? "bg-gradient-to-r from-blue-900 to-black text-white" : "bg-white text-blue-900"}`}
-    >
-      {/* Animated Text */}
+    <section className="relative h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-900 to-black text-white">
       <motion.h1 
         className="text-5xl md:text-7xl font-extrabold"
         initial={{ opacity: 0, y: -30 }}
